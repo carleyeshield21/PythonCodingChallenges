@@ -18,3 +18,11 @@ while str_input:
     else:
         str_input = False
 print(arr)
+
+# Here set an array or list and has a single space as the initial value. The purpose of this is to have a basis
+# when we are trying to make a comparison in the if statement "if arr[n] != input_string:". We increment the counter
+# by one on every iteration if it detects a False, then we compare the counter to the length of the list "arr",
+# if it equals the length of arr, then that is the time we append the 'input_string' meaning in the given arr/list,
+# it currently has no same value of string as the 'input_string. All of these are inside a while statement,
+# setting first the value of str_input to True, and making it to False if the user inputs endstr to stop and output
+# the final string
