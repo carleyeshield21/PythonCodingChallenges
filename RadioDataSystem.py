@@ -13,7 +13,7 @@ while str_input:
                 counter += 1
                 if counter == len(arr):
                     arr.append(input_string)
-        print(f'counter = {counter}')
+        # print(f'counter = {counter}')
         print(arr)
     else:
         str_input = False
