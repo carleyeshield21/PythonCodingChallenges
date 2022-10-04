@@ -18,6 +18,9 @@ while str_input:
     else:
         str_input = False
 print(arr)
+del arr[0]
+print(arr)
+print(' '.join(arr))
 
 # Here set an array or list and has a single space as the initial value. The purpose of this is to have a basis
 # when we are trying to make a comparison in the if statement "if arr[n] != input_string:". We increment the counter
